@@ -23,7 +23,7 @@ sh 'mvn test'
 stage('Run Application') {
 steps {
 
-sh 'java -jar target/bitmavenapp-1.0-SNAPSHOT.jar'
+sh 'java -jar target/my-maven-project-1.0-SNAPSHOT.jar'
 }
 }
 }
